@@ -1,34 +1,30 @@
-# ThinkAcademy - Brain *brain = nullptr;
+# ThinkAcademy
 
-ThinkAcademy je revoluční aplikace ve vzdělávání! 
-## připoj se ještě dnes a uč se!
+ThinkAcademy is an education platform created by team `Brain *brain = nullptr;`
+for Tour de App 2026. It brings courses, learning materials, quizzes, and a
+student dashboard into one application.
 
-## Brain *brain = nullptr; 
-- Lukas - Frontend/organization
-- Ari - Backend
-- Sofi - UI/UX
-- Blahaj - mentální podpora
-- speciální poděkování jde Klémovy za to, že nás s HTML posunul do budoucnosti
+## Architecture
 
+- `apps/web` — Next.js and TypeScript frontend using React Query
+- `apps/server` — Express API with MySQL persistence and Zod validation
+- `apps/caddy` — reverse proxy and deployment entry point
+- Docker-based local and competition deployment
 
-## Technologie:
-Frontend: 
-- React
-- ReactQuery
-- Tailwind
-- TS
-- Bolest
-- http.cat
-- Next.JS
+## Product areas
 
-Backend:
-- Express.js
+- Course catalogue and course detail
+- Learning modules and materials
+- Quizzes
+- User accounts and authentication
+- Personalized dashboard and activity feed
 
-mimo jiné jsme pro design používali SW jako je:
-- Figma
-- Inkscape
+## Team
 
+- Lukáš — frontend development and organization
+- Ari — backend development
+- Sofi — UI/UX design
+- Blahaj — team support
 
-### šíleně jsem si tohle užil a jsem rád za tuto soutěž <3, děkuju celému týmu TdA
-
--# meow meow :3
+The project was built collaboratively under competition time constraints, with
+the frontend, backend, and design work developed in parallel.
